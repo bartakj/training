@@ -25,7 +25,7 @@ variable "aws_secret_key" {}
 variable "aws_region" {
   default = "us-west-1"
 }
-sdfsdgsgsdgerwet
+
 variable "web_count" {
   default = "3"
 }
