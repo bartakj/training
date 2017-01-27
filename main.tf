@@ -27,7 +27,7 @@ variable "aws_region" {
 }
 
 variable "web_count" {
-  default = "2"
+  default = "1"
 }
 
 provider "aws" {
@@ -46,9 +46,9 @@ resource "aws_instance" web {
   tags {
     Identity = "autodesk.ape"
 
-    foo = "bar"
+    Foo = "bar"
 
-    jb   = "test"
+    Jb   = "test"
     Name = "web ${count.index+1} / ${var.web_count}"
   }
 }
