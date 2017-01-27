@@ -46,7 +46,7 @@ resource "aws_instance" web {
   tags {
     Identity = "autodesk-ape"
 
-    foo = "bar"
+    Foo = "bar"
 
     jb   = "test"
     Name = "web ${count.index+1} / ${var.web_count}"
