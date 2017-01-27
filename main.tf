@@ -48,7 +48,7 @@ resource "aws_instance" web {
 
     Foo = "bar"
 
-    jb   = "test"
+    Jb   = "test"
     Name = "web ${count.index+1} / ${var.web_count}"
   }
 }
